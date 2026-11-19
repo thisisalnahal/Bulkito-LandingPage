@@ -35,6 +35,9 @@ footer strong{color:var(--tx);font-weight:600}
 footer a{color:var(--bl);text-decoration:none;font-weight:600}
 footer a:hover{text-decoration:underline}
 footer .copy{margin-top:14px;font-size:13px;opacity:.7}
+.social{list-style:none;padding:0;margin:16px 0;display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.social a{display:inline-block;padding:6px 18px;border:1px solid var(--line);border-radius:999px;color:var(--tx);font-weight:600;text-decoration:none;transition:border-color .2s,color .2s}
+.social a:hover{border-color:var(--bl);color:var(--bl);text-decoration:none}
 
 @media(max-width:760px){
 .hero{grid-template-columns:1fr;text-align:center;padding-bottom:50px}
